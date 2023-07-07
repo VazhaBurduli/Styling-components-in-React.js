@@ -1,0 +1,51 @@
+body {
+    background-color: gainsboro;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    margin: 0 auto; 
+}
+
+.color {
+    color: red; 
+}
+
+.category {
+    width: 400px;
+    border-radius: 5px;
+    background-color: white;
+    margin: 4px;
+    padding: 30px 20px;
+}
+
+.tasks {
+    width: 100%;
+}
+
+.heading {
+    font-size: 35px;
+    border-bottom: 4px solid red;
+    padding-bottom: 20px;
+}
+
+.task {
+    border: 2px solid blue;
+    border-left: 7px solid blue;
+    border-radius: 5px;
+    padding: 20px 20px 40px 20px;
+    font-size: 22px;
+    margin: 30px 0;
+    cursor: pointer;
+}
+
+.plus {
+    font-size: 35px;
+    color: gray;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+
